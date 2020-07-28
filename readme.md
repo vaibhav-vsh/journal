@@ -1,0 +1,1 @@
+This is a Django powered website which works as a simple and private journal keeping application. You can login and then create, edit or delete your entries that only you can see!
