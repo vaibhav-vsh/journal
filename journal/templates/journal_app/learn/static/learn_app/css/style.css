@@ -1,0 +1,11 @@
+h1{
+  color: blue;
+  background-color: #87ceeb;
+  text-align: center;
+  border: solid 5px red;
+  font-family: monospace;
+}
+
+img{
+  border: solid 5px maroon;
+}

@@ -1,0 +1,25 @@
+{% extends "journal_app/base.html" %}
+{% block content %}
+<br>
+<br>
+<h1 class="listtitle">Your Journal!</h1>
+<br>
+<br>
+{% for entry in entry_list %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="entrytitle display-4">{{ entry.title }}</h1>
+    <p class="lead entrycon">{{ entry.content }}</p>
+    <p><i>{{ entry.publish_date }}</i></p>
+    <div class="eddel">
+      <a href="{% url 'edit' pk=entry.id %}"><button style='font-size:24px;color:green'>Edit <i class='fa fa-edit'></i></button></a>
+      <a href="{% url 'delete' pk=entry.id %}"><button style="font-size:24px;color:red">Delete <i class="material-icons">delete</i></button></a>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+{% endfor %}
+
+{% endblock %}

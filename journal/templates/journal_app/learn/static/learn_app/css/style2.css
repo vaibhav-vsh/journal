@@ -1,0 +1,23 @@
+table{
+  border: 5px solid grey;
+}
+
+td{
+  border: 2px solid red;
+}
+
+tr{
+  border: 3px solid green;
+}
+
+thead{
+  border: 4px solid orange;
+}
+
+th{
+  border: 3px solid pink;
+}
+
+h1{
+  color: red;
+}

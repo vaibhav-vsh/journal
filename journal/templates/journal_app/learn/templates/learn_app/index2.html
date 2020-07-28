@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Templates with Images and CSS</title>
+    <link rel="stylesheet" href="{% static "learn_app/css/style.css" %}">
+  </head>
+  <body>
+
+    <h1>Hey! Here you can see an image (hopefully)!</h1>
+
+    <img src="{% static "learn_app/images/learning.jpg" %}" alt="Nope">
+
+  </body>
+</html>

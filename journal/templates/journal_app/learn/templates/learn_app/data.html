@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table Data</title>
+    <link rel="stylesheet" href="{% static "learn_app/css/style2.css" %}">
+  </head>
+  <body>
+    <h1>You can see both the tables' data here!</h1>
+
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>DOB</th>
+      </thead>
+      {% for k in kids %}
+
+      <tr>
+        <td>{{ k.id }}</td>
+        <td>{{ k.name }}</td>
+        <td>{{ k.dob }}</td>
+      </tr>
+
+      {% endfor %}
+    </table>
+
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Marks</th>
+      </thead>
+      {% for s in stu %}
+
+      <tr>
+        <td>{{ s.roll_no }}</td>
+        <td>{{ s.marks }}</td>
+      </tr>
+
+      {% endfor %}
+    </table>
+
+  </body>
+</html>

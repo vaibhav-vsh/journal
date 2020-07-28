@@ -1,0 +1,75 @@
+.navtext{
+  font-family: 'Fondamento', cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-item{
+  margin-right: 20px;
+  border: 5px outset red;
+  border-radius: 25px;
+}
+
+.entrytitle{
+  font-family: 'Dancing Script', cursive;
+  font-size: 46px;
+  border: 5px double black;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.entrycon{
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.listtitle{
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.home-jumbo{
+  position: absolute; /* or absolute */
+  top: 35%;
+  left: 10%;
+  right: 10%;
+  background-color: hsla(330, 0%, 65%, 0.71);
+}
+
+
+.home-text{
+  font-family: 'Monoton', cursive;
+  font-size: 70px;
+  text-align: center;
+  padding: 60px 60px 60px 60px;
+  word-spacing: 30px;
+}
+
+.about-jumbo{
+  position: absolute; /* or absolute */
+  top: 35%;
+  left: 5%;
+  right: 5%;
+  background-color: hsla(330, 0%, 65%, 0.71);
+}
+
+
+.about-text{
+  font-family: 'Grenze Gotisch', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 60px 60px 60px 60px;
+}
+
+.eddel{
+  float: right;
+}
+
+.del-btn{
+  font-size: 30px;
+  position: absolute;
+  left: 45%;
+  right: 40%;
+}

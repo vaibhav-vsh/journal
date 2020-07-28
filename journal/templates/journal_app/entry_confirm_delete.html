@@ -1,0 +1,12 @@
+{% extends "journal_app/base.html" %}
+{% block content %}
+<br>
+<br>
+<div class="container jumbotron">
+<form method="post">{% csrf_token %}
+  <p class="about-text">Are you sure you want to delete "{{ object }}"?</p>
+  <input class="btn btn-dark del-btn" type="submit" value="Confirm">
+</form>
+</div>
+
+{% endblock %}
